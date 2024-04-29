@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+h2, h4 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: rgb(181, 181, 95);
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(126, 126, 64);
+}
+
+#recently-added {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* Styles for manga cards */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 150px; /* Gap between columns */
+}
+
+.manga-x {
+    background-color: rgba(181, 181, 95, 0.044);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.manga-x-image {
+    width: 130px;
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0 auto;
+}
+
+.head-titles {
+    padding-bottom: 30px;
+}
+
+.manga-x-title {
+    font-size: 16px;
+}
+
+.manga-x-content {
+    font-size: 14px;
+}

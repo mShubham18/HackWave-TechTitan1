@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#manga-reader-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#manga-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#manga-navigation {
+    margin-bottom: 20px;
+}
+
+#manga-navigation button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#manga-page {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
